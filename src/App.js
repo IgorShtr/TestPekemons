@@ -9,8 +9,8 @@ function App() {
  
   return (
     // <BrowserRouter>
-         <Router basename="/TestPekemons">
-      <Route exect path ='/TestPekemons' component ={HomePage}>    mp
+         <Router >
+      <Route exect path ='/TestPekemons' component ={HomePage}>
     </Route>
     </Router>
     // {/* </BrowserRouter> */}
