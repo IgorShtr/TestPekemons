@@ -13,7 +13,7 @@ function App() {
       <Route exect path ='/TestPekemons' component ={HomePage}>    mp
     </Route>
     </Router>
-    {/* </BrowserRouter> */}
+    // {/* </BrowserRouter> */}
    
     
     
