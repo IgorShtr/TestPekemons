@@ -8,12 +8,9 @@ function App() {
   
  
   return ( 
-    // <Router>
     <HashRouter basename="/pokemon"> 
       <Route exect path ="/testPekemons" component ={HomePage}/>
-    </HashRouter> 
-    // </Router>  
-          
+    </HashRouter>           
   );
 }
 
