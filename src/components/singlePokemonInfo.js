@@ -14,7 +14,7 @@ export const SinglePokemonInfo = (props) => {
 
   useEffect(() => {
 
-    const url1 = `http://pokeapi.co/api/v2/pokemon/${siglePokemonId}/`
+    const url1 = `https://pokeapi.co/api/v2/pokemon/${siglePokemonId}/`
     axios.get(url1).then(result => {
       setPokemonInfo(result.data);
       setIsDataResived(true)

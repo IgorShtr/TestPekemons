@@ -13,8 +13,10 @@ export const AllPokemons = props => {
     let typesAll = []
     pokemonList.forEach(({ url }, index) => {
       axios.get(url).then(result => {        
-        const url1 = `http://pokeapi.co/api/v2/pokemon/${result.data.id}/`
-        axios.get(url1).then(result => {
+        const url1 = `https://pokeapi.co/api/v2/pokemon/${result.data.id}/`
+        axios.get(url1).
+        then(result => {
+          console.log(result)
           const { name, types, id } = result.data;
           const type = types.map(({ type }) => type.name)
           const singlePokData = {
@@ -27,7 +29,8 @@ export const AllPokemons = props => {
          (type.length>1) ? type.forEach((item)=>typesAll.push(item)):typesAll.push(type[0])
           const unification = ()=> Array.from(new Set(typesAll));
           // const unikTypesAll = unification();         
-        });
+        })
+        .catch(()=>console.log("error"));
       });
     });
   }, [pokemonList]);

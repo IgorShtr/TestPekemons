@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TestPekemons/static/css/main.bda32a4c.chunk.css",
-    "main.js": "/TestPekemons/static/js/main.49975556.chunk.js",
-    "main.js.map": "/TestPekemons/static/js/main.49975556.chunk.js.map",
+    "main.js": "/TestPekemons/static/js/main.2196e5f0.chunk.js",
+    "main.js.map": "/TestPekemons/static/js/main.2196e5f0.chunk.js.map",
     "runtime-main.js": "/TestPekemons/static/js/runtime-main.dc9fc912.js",
     "runtime-main.js.map": "/TestPekemons/static/js/runtime-main.dc9fc912.js.map",
     "static/js/2.88b2d389.chunk.js": "/TestPekemons/static/js/2.88b2d389.chunk.js",
     "static/js/2.88b2d389.chunk.js.map": "/TestPekemons/static/js/2.88b2d389.chunk.js.map",
     "index.html": "/TestPekemons/index.html",
-    "precache-manifest.f138a5c6e2b23a73a96626442b6f75de.js": "/TestPekemons/precache-manifest.f138a5c6e2b23a73a96626442b6f75de.js",
+    "precache-manifest.d0372f1405ba1feb731e4cbc92443130.js": "/TestPekemons/precache-manifest.d0372f1405ba1feb731e4cbc92443130.js",
     "service-worker.js": "/TestPekemons/service-worker.js",
     "static/css/main.bda32a4c.chunk.css.map": "/TestPekemons/static/css/main.bda32a4c.chunk.css.map",
     "static/js/2.88b2d389.chunk.js.LICENSE.txt": "/TestPekemons/static/js/2.88b2d389.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.dc9fc912.js",
     "static/js/2.88b2d389.chunk.js",
     "static/css/main.bda32a4c.chunk.css",
-    "static/js/main.49975556.chunk.js"
+    "static/js/main.2196e5f0.chunk.js"
   ]
 }
